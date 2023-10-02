@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 str = "Hello Alx intranet"
-print(str * 3)
+print(3 * str)
 print(str[:9])
