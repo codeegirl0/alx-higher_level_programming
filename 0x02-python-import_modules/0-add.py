@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-if __ name __ == '__ main __':
+if __name__ == "__main__":
+    
     from add_0 import add
 
     a = 1
