@@ -3,7 +3,7 @@
 
 
 def element_at(my_list, idx):
-    """Retrive an element from a list."""
+    """Get a number from a list."""
     if idx < 0 or idx > (len(my_list) - 1):
         return None
-    return (my_list[idx])
+    print("The element indexed in {:d} is {}".format(idx, element_at(my_list, idx)))
