@@ -3,6 +3,7 @@
 
 
 def print_list_integer(my_list=[]):
-    """Print all integers of a list."""
-    for i in range(len(my_list)):
+    """To print list of integers"""
+    length = len(my_list)
+    for i in range(length):
         print("{:d}".format(my_list[i]))
