@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # 2-replace_in_list.py
 
+
 def replace_in_list(my_list, idx, element):
     """Replacing elements"""
     if idx >= 0 and idx < len(my_list):
         my_list[idx] = element
-    else
-        return (my_list)
+    return (my_list)
