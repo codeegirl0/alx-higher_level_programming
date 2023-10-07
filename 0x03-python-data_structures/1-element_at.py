@@ -3,7 +3,7 @@
 
 
 def element_at(my_list, idx):
-    """Get a number from a list."""
+    """Get element in a list."""
     if idx < 0 or idx > (len(my_list) - 1):
         return None
-    return(my_list[idx])
+    return (my_list[idx])
