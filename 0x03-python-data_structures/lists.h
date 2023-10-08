@@ -5,21 +5,20 @@
 #include <stdlib.h>
 
 /**
- * struct listinteg_s - the linked list
- * @m: the integer
- * @thenext: the next integer
- *
- * Todo: singly linked list node structure
+ * struct listint_s - singly linked list
+ * @n: the integer
+ * @next: points to the next nod
+ * Description: singly linked list
  */
-typedef struct listinteg_s
+typedef struct listint_s
 {
-	int m;
-	struct listinteg_s *thenext;
-} listinteg_t;
+	int n;
+	struct listint_s *next;
+} listint_t;
 
-size_t print_listinteg(const listinteg_t *h);
-listinteg_t *add_nodeinteg(listinteg_t **head, const int m);
-void freing_listinteg(listinteg_t *head);
-int get_palindrome(listinteg_t **head);
+size_t print_listint(const listint_t *h);
+listint_t *add_nodeint_end(listint_t **head, const int n);
+void free_listint(listint_t *head);
+int is_palindrome(listint_t **head);
 
 #endif /* LISTS_H */
