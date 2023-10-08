@@ -8,4 +8,4 @@ def divisible_by_2(my_list=[]):
             divisibles.append(True)
         else:
             divisibles.append(False)
-    return (multiples)
+    return (divisibles)
